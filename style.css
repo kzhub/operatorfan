@@ -1,0 +1,70 @@
+/*共通css*/
+*{/*ブラウザのデフォルトcssを無効化 */
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+margin: 0px auto;
+padding: 0px;
+text-align: center;
+font-size: 16px;/*rem指定のための基準サイズ */
+font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+header{font-size: 1.2rem;
+margin-top: 2rem;
+margin-bottom: 5rem;}
+
+
+main{
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+　 height: auto;
+}
+
+img#aiueo700{
+margin: auto;
+width: 60%;
+min-width: 100px;
+max-width: 390px;
+height: auto;
+}
+
+
+
+li{list-style: none;
+display: inline;}
+
+
+footer{margin-bottom: 2rem;
+  margin-top: auto;
+font-size: 0.8rem;}
+
+a:visited{
+  color : #000000;/*アクセス済みcolor */
+}
+
+a:hover{
+  color : #696969;/*point乗せたとき色 */
+}
+a{margin: 0.5rem;}
+
+
+/*prelistcss*/
+section#prelist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5rem;
+  margin-right:5rem;
+  padding-top: 2rem;
+}
+section#prelist article{
+  width:200px;
+}
+section#prelist article img{
+  width:90%;
+}
