@@ -5,18 +5,19 @@
   text-decoration: none;
   list-style: none;
 }
-
+p{color: #333333}
 body {
 margin: 0px auto;
 padding: 0px;
 text-align: center;
 font-size: 16px;/*rem指定のための基準サイズ */
-font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'M PLUS 1p', sans-serif;
 }
 
 header{font-size: 1.2rem;
-margin-top: 2rem;
-margin-bottom: 5rem;
+margin-top: 1.2rem;
+margin-bottom: 4rem;
+
 }
 
 
@@ -28,19 +29,20 @@ main{
 
 img#aiueo700{
 margin: auto;
-width: 60%;
+width: 70%;
 min-width: 100px;
-max-width: 460px;
-height: auto;
+max-width: 580px;
 }
 
 img#logo1{
-  max-width:22px;
+  max-width:20px;
 }
 
 
 li{list-style: none;
-display: inline;}
+display: inline;
+font-weight: bold;
+font-size: 1rem}
 
 
 footer{margin-bottom: 2rem;
@@ -55,9 +57,13 @@ a:visited{
 a:hover{
   color : #696969;/*point乗せたとき色 */
 }
-a{margin: 0.5rem;}
+li{margin: 0.85rem;
+  }/*メニュー間隔 */
+a{display: inline-block;
 
-ul{border-bottom: 1.4px solid black;
+}
+
+ul{border-bottom: 2px solid #dcdcdc;
   padding-bottom: 15px;
 }
 
@@ -69,13 +75,41 @@ section#prelist{
   justify-content: space-around;
   margin-left: 5rem;
   margin-right:5rem;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
 }
 section#prelist article{
   width:200px;
+  margin-top: 1rem;
 }
 section#prelist article img{
+  width:100%;
+}
+
+article#textback{
+  background-color: #dcdcdc;
+}
+
+/*プリセット個別ページcss*/
+section#preset{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5rem;
+  margin-right:5rem;
+}
+section#preset article{
+  width:400px;
+}
+section#preset article img{
   width:90%;
+}
+
+article #samuneiru{
+  margin-top: 10px;
+}
+
+p#presettext{
+  text-align: left;
 }
 
 /*about_only*/
