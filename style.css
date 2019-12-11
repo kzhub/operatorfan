@@ -92,6 +92,7 @@ section#prelist article img{
 article#textback{
   background-color: #dcdcdc;
 }
+p#download{font-size: 0.9rem;}
 
 /*プリセット個別ページcss*/
 section#preset{
