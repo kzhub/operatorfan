@@ -5,13 +5,16 @@
   text-decoration: none;
   list-style: none;
 }
-p{color: #333333}
+p{color: #333333;
+font-weight:300;}
 body {
 margin: 0px auto;
 padding: 0px;
 text-align: center;
 font-size: 16px;/*rem指定のための基準サイズ */
 font-family: 'M PLUS 1p', sans-serif;
+font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+font-family: "Hiragino Sans"
 }
 
 header{font-size: 1.2rem;
@@ -41,17 +44,18 @@ img#logo1{
 
 li{list-style: none;
 display: inline;
-font-weight: bold;
-font-size: 1rem}
+font-weight: 400;
+font-size: 1rem;
+}
 
 
 footer{margin-bottom: 2rem;
   margin-top: auto;
 font-size: 0.8rem;}
 
-a{color:#000000; }/*リンクcolor */
+a{color:#262626; }/*リンクcolor */
 a:visited{
-  color : #000000;/*アクセス済みcolor */
+  color : #262626;/*アクセス済みcolor */
 }
 
 a:hover{
@@ -110,7 +114,6 @@ article #samuneiru{
 
 p#presettext{
   text-align: left;
-  font-weight: lighter;
 }
 
 
@@ -126,7 +129,7 @@ section#aboutsection{
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-span#oo{font-weight: bold;}
+
 
 h3#midasi{text-align: left;
 margin-bottom: 0.5rem;
