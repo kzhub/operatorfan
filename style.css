@@ -110,19 +110,24 @@ article #samuneiru{
 
 p#presettext{
   text-align: left;
+  font-weight: lighter;
 }
 
 
 
 /*about_only*/
-section#abouttext{display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+section#abouttext{
 margin-left: 8rem;
 margin-right:8rem;
 padding-top: 0.5rem;}
 
 section#aboutsection{
+
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+span#oo{font-weight: bold;}
+
+h3#midasi{text-align: left;
+margin-bottom: 0.5rem;
+color: #333333;}
