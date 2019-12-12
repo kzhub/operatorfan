@@ -73,9 +73,6 @@ ul{border-bottom: 1px solid #dcdcdc;
 text-align: center;
 }
 
-figure:hover img {
-  opacity: .5;
-}
 
 /*prelistcss*/
 section#prelist{
