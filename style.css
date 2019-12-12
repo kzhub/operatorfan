@@ -72,10 +72,10 @@ ul{border-bottom: 1px solid #dcdcdc;
   padding-bottom: 15px;
 text-align: center;
 }
-.img_wrap:hover img{
-  opacity: 0.6;
-  transition-duration: 0.3s;
-}
+
+.hover:hover img{opacity: 0.6;
+  transition-duration: 0.3s;}
+
 
 /*prelistcss*/
 section#prelist{
