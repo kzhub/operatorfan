@@ -73,9 +73,9 @@ ul{border-bottom: 1px solid #dcdcdc;
 text-align: center;
 }
 
-.hover:hover a{opacity: 0.6;
-  transition-duration: 0.3s;}
-
+figure:hover img {
+  opacity: .5;
+}
 
 /*prelistcss*/
 section#prelist{
