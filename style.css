@@ -73,7 +73,7 @@ ul{border-bottom: 1px solid #dcdcdc;
 text-align: center;
 }
 
-.hover:hover img{opacity: 0.6;
+.hover:hover a{opacity: 0.6;
   transition-duration: 0.3s;}
 
 
