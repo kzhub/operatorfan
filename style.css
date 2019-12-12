@@ -46,6 +46,7 @@ li{list-style: none;
 display: inline;
 font-weight: 400;
 font-size: 1rem;
+
 }
 
 
@@ -59,16 +60,17 @@ a:visited{
 }
 
 a:hover{
-  color : #696969;/*point乗せたとき色 */
+  color : #ff8c00;/*point乗せたとき色 */
 }
-li{margin: 0.85rem;
+li{margin: 0.3rem;
   }/*メニュー間隔 */
 a{display: inline-block;
 
 }
 
-ul{border-bottom: 2px solid #dcdcdc;
+ul{border-bottom: 1px solid #dcdcdc;
   padding-bottom: 15px;
+text-align: center;
 }
 
 
