@@ -135,19 +135,26 @@ section#aboutsection{
 
 
 /*How to page */
-h4.midasi{text-align: left;
-margin-bottom: 0.5rem;
-color: #333333;
+h4.midasi{
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: #333333;
 }
 
 a.mokuzi{
   color: #4682b4;
 }
 
-h3#midasi{text-align: left;
-margin-bottom: 0.5rem;
-color: #333333;}
+h3#midasi{
+ text-align: left;
+ margin-bottom: 0.5rem;
+ color: #333333;
+}
 
+img#howto1{
+  width:80%;
+  min-width:300px;
+}
 
    /*480px以下の時 */
    @media only screen and (max-width: 480px) {
