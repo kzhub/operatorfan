@@ -34,11 +34,11 @@ img#aiueo700{
 margin: auto;
 width: 70%;
 min-width: 100px;
-max-width: 500px;
+max-width: 100px;
 }
 
 img#aiueo700:hover{
-width:71%;
+transform: scale(1.1,1.1);
 transition: 0.5s;
 }
 
