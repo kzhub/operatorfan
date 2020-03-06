@@ -33,7 +33,7 @@ main{
 img#aiueo700{
 margin: auto;
 width: 70%;
-min-width: 600px;
+min-width: 100px;
 max-width: 600px;
 }
 
