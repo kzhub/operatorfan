@@ -33,13 +33,12 @@ main{
 img#aiueo700{
 margin: auto;
 width: 70%;
-min-width: 100px;
-max-width: 580px;
+
 }
 
 img#aiueo700:hover{
 width:71%;
-transition: 0.5s; 
+transition: 0.5s;
 }
 
 img#logo1{
