@@ -5,7 +5,7 @@
   text-decoration: none;
   list-style: none;
 }
-p{color: #333333;
+p{color: #708090;
 font-weight:200;}
 body {
 margin: 0px auto;
@@ -76,6 +76,7 @@ a{display: inline-block;
 ul{border-bottom: 1px solid #dcdcdc;
   padding-bottom: 15px;
 text-align: center;
+color:708090;
 }
 
 
