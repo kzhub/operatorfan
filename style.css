@@ -93,6 +93,7 @@ section#prelist{
 section#prelist article{
   width:200px;
   margin-top: 1rem;
+  border-radius: 2px;
 }
 section#prelist article img{
   width:100%;
