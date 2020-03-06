@@ -1,5 +1,9 @@
 function whatssite{
-  let popup=document.getElementById("aiueo700");
+  let open=document.getElementById("modar");
+  open.style.display="block";
+  let open2=document.getElementById("mask");
+  open2.style.display="block";
+
 
 
 }

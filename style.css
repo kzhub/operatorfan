@@ -35,6 +35,7 @@ margin: auto;
 width: 70%;
 min-width: 100px;
 max-width: 550px;
+cursor: pointer;
 }
 
 img#aiueo700:hover{
