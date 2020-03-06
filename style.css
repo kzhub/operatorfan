@@ -38,8 +38,7 @@ max-width: 480px;
 }
 
 img#aiueo700:hover{
-width:71%;
-transition: 0.5s;
+transform: scaleX(1.1,1.1);
 }
 
 img#logo1{
