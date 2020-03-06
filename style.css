@@ -33,7 +33,8 @@ main{
 img#aiueo700{
 margin: auto;
 width: 70%;
-
+min-width: 100px;
+max-width: 580px;
 }
 
 img#aiueo700:hover{
