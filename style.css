@@ -165,3 +165,33 @@ img#howto1{
    @media only screen and (max-width: 480px) {
 　
 }
+/*index mask */
+#mask {
+  cursor: pointer;
+  display: none;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#modar{
+  width:50%;
+  height: 50%;
+  display: none;
+  background: #fff;
+  color: #555;
+  padding: 40px;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;   /*重なりの順序*/
+  transition: 0.4s;
+  text-align: center;
+}
