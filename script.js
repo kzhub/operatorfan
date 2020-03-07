@@ -12,3 +12,8 @@ function tozi(){
   close2.style.display="none";
 
 }
+
+function fadein(){
+  let a=document.getElementById('aiueo700');
+  a.animate([{opacity: '0'}, {opacity: '1'}], 1000);
+}
