@@ -88,8 +88,8 @@ section#prelist{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-left: 5rem;
-  margin-right:5rem;
+  margin-left:2rem;
+  margin-right:2rem;
   padding-top: 0.5rem;
 }
 section#prelist article{
@@ -135,7 +135,7 @@ p#presettext{
 section#abouttext{
 margin-left: 10%;
 margin-right:10%;
-padding-top: 0.5rem;}
+}
 
 section#aboutsection{
 
