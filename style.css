@@ -60,9 +60,12 @@ footer{margin-bottom: 1rem;
   margin-top: auto;
 font-size: 0.8rem;}
 
-a{color:#262626; }/*リンクcolor */
+a{color:#696969;
+letter-spacing: 0.15em;
+   }/*リンクcolor */
 a:visited{
-  color : #262626;/*アクセス済みcolor */
+  color : #696969;/*アクセス済みcolor */
+letter-spacing: 0.15em;
 }
 
 a:hover{
@@ -198,4 +201,5 @@ img#howto1{
   z-index: 2;   /*重なりの順序*/
   transition: 0.4s;
   text-align: center;
+  transition: 0.5s;z
 }
