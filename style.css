@@ -12,9 +12,7 @@ margin: 0px auto;
 padding: 0px;
 text-align: center;
 font-size: 16px;/*rem指定のための基準サイズ */
-font-family: 'M PLUS 1p', sans-serif;
-font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
-font-family: "Hiragino Sans"
+font-family: 'Lato', sans-serif;
 }
 
 header{font-size: 1.2rem;
