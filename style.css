@@ -28,15 +28,15 @@ main{
 　 height: auto;
 }
 
-img#aiueo700{
+img#aiueo{
 margin: auto;
-width: 70%;
+width: 90%;
 min-width: 100px;
 max-width: 550px;
 cursor: pointer;
 }
 
-img#aiueo700:hover{
+img#aiueo:hover{
 transform: scale(1.05,1.05);
 transition: 0.5s;
 }
